@@ -1,0 +1,981 @@
+
+<!-- header section start -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>AGVKS Home</title>
+    <link rel="icon" type="image/x-icon" href="./Assets/images/icon.svg" />
+    <meta name="description" content="">
+
+    <!-- Bootstrap CSS CDN (v5.3) -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous" />
+
+    <!-- Font-awesom 6.1.1 Icons CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+
+
+    
+    <!-- Styling -->
+    <link rel="stylesheet" href="./Assets/style/theme.css" />
+    <link rel="stylesheet" href="./Assets/style/gelements.css" />
+    <link rel="stylesheet" href="./Assets/style/nav.css" />
+    <link rel="stylesheet" href="./Assets/style/footer.css" />
+
+
+
+
+    
+    <!-- jQuery CDN -->
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"
+        integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous" defer></script>
+
+    <!-- gallery links start  -->
+    
+    <!-- gallery links end  -->
+  
+
+   <!-- Owl carousel v.2.3.4 CSS Theme CDN link -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+        integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Owl carousel v.2.3.4 CSS link -->
+    <link rel="stylesheet" href="./Assets/style/owl.carousel.css" />
+
+
+    <!-- Animation CSS CDN -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+
+
+    <link rel="stylesheet" href="./Assets/style/style.css" />
+
+    <!-- Owl carousel v.2.3.4 JS CDN link -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" defer></script>
+    <script src="./Assets/javascript/app.js" defer></script>
+
+       <!-- ====================> JS <================== -->
+    <!-- Bootstrap JS CDN (v5.3) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"
+        defer></script>
+
+
+<!-- gallery links start  -->
+    
+    <!-- My Java scripts -->
+    <script src="./Assets/javascript/global.js" defer></script>
+     <!-- <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script> -->
+</head>
+
+<body>
+    <!-- PRELOADER -->
+    <div id="preloader">
+     <div class="cssload-thecube">
+        <div class="cssload-cube cssload-c1"></div>
+        <div class="cssload-cube cssload-c2"></div>
+        <div class="cssload-cube cssload-c4"></div>
+        <div class="cssload-cube cssload-c3"></div>
+    </div>
+</div>
+    <!-- BACK TO TOP -->
+    <div id="myBtn" onclick="topFunction()">
+    <span title="Back to top">
+        <i class="fa-solid fa-chevron-up"></i>
+    </span>
+</div>
+    <header>
+        <div class="emptyNav" style="transition: none"></div>
+
+<!-- ++++++++++++++++++++++++++++++++++++++++ -->
+
+<!-- ===========> NAV BAR 🥗 -->
+
+<!-- ++++++++++++++++++++++++++++++++++++++++ -->
+
+<nav class="navbar navbar-expand-lg">
+
+    <div class="container">
+
+        <!--===> Logo  -->
+
+        <a class="navbar-brand" href="#">
+
+            <img src="./Assets/images/logo.svg" alt="" />
+
+        </a>
+
+
+
+        <!--=====> Toggle Btn -->
+
+        <div class="tgl-box">
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offNav"
+
+                aria-controls="offNav" aria-label="Toggle navigation">
+
+                <i class="fa-solid fa-bars-staggered"></i>
+
+            </button>
+
+        </div>
+
+
+
+        <!-- ====> Nav items -->
+
+        <div class="offcanvas offcanvas-start" data-bs-scroll="true" id="offNav" aria-labelledby="offNavLabel">
+
+            <div class="offcanvas-header">
+
+                <img src="./Assets/images/logo.svg" alt="logo" style="height: 40px; width: auto" />
+
+                <button type="button" class="btnClose btn" data-bs-dismiss="offcanvas" aria-label="Close">
+
+                    <i class="fa-solid fa-xmark"></i>
+
+                </button>
+
+            </div>
+
+            <div class="offcanvas-body">
+
+                <ul class="navbar-nav justify-content-end pe-3">
+
+                    <li class="nav-item">
+
+                        <a class="nav-link js-link" href="https://agvks.in/" aria-current="page">Home</a>
+
+                    </li>
+
+
+
+                    <!--  About Us -->
+
+                    <li class="nav-item dropdown">
+
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+
+                            aria-expanded="false">
+
+                            About Us
+
+                        </a>
+
+                        <ul class="dropdown-menu">
+
+                            <li><a class="dropdown-item js-link" href="introduction">Introduction</a></li>
+
+                            <li><a class="dropdown-item js-link" href="committee">Super Power Working Committee</a></li>
+
+                            <li><a class="dropdown-item js-link" href="officials">Key Officials</a></li>
+
+                            <li><a class="dropdown-item js-link" href="functions">Functions of AGVKS</a></li>
+
+                            <li><a class="dropdown-item js-link" href="vission">Vission, Mission &
+
+                                    Slogan</a></li>
+
+                            <li><a class="dropdown-item js-link" href="constitution">Constitution</a></li>
+
+                            <li><a class="dropdown-item js-link" href="financial">Financial Audit</a></li>
+
+                            <li><a class="dropdown-item js-link border-0" href="office">Office Details</a>
+
+                            </li>
+
+                        </ul>
+
+                    </li>
+
+
+
+                    <!-- Gallery Dropdown -->
+
+                    <li class="nav-item dropdown">
+
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+
+                            aria-expanded="false">
+
+                            Gallery
+
+                        </a>
+
+                        <ul class="dropdown-menu">
+
+                            <li><a class="dropdown-item js-link" href="retirement">Retirement</a></li>
+
+                            <li><a class="dropdown-item js-link" href="working_committee">Working Committee</a>
+
+                            </li>
+
+                            <li><a class="dropdown-item js-link" href="adhiveshan">Adhiveshan</a></li>
+
+                            <li><a class="dropdown-item js-link border-0" href="social_activity">Social Activity</a></li>
+
+                        </ul>
+
+                    </li>
+
+
+
+                    <!-- Download Dropdown -->
+
+                    <li class="nav-item dropdown">
+
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+
+                            aria-expanded="false">
+
+                            Download
+
+                        </a>
+
+                        <ul class="dropdown-menu">
+
+                            <li><a class="dropdown-item js-link" href="union_bearers">Designation of Union
+
+                                    Bearers</a>
+
+                            </li>
+
+                            <li><a class="dropdown-item js-link" href="letter_heads">Letter Heads</a></li>
+
+                            <li><a class="dropdown-item js-link" href="circulars">Circulars / GSOs /
+
+                                    SRs /
+
+                                    Est.Circular</a></li>
+
+                            <li><a class="dropdown-item js-link" href="union_notifications">Union
+
+                                    Notifications</a></li>
+
+                            <li><a class="dropdown-item js-link border-0" href="union_check">Union Check
+
+                                    Off</a></li>
+
+                        </ul>
+
+                    </li>
+
+
+
+                    <!-- News Dropdown -->
+
+                    <li class="nav-item dropdown">
+
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+
+                            aria-expanded="false">
+
+                            News
+
+                        </a>
+
+                        <ul class="dropdown-menu">
+
+                            <li><a class="dropdown-item js-link" href="agvks">AGVKS</a></li>
+
+                            <li><a class="dropdown-item js-link border-0" href="gusss">GUSSS</a></li>
+
+                        </ul>
+
+                    </li>
+
+
+
+                    <!-- Grievance -->
+
+                    <li class="nav-item bdr-none">
+
+                        <a class="nav-link js-link" href="grievance">Grievance</a>
+
+                    </li>
+
+
+
+                    <!-- Contact -->
+
+                    <li class="nav-item bdr-none">
+
+                        <a class="nav-link js-link" href="contact">Contact us</a>
+
+                    </li>
+
+                </ul>
+                     
+                <div class="login-box">
+                    
+                    <a href="login" role="button" class="btn b-sm prim-outline"><i class="fa-regular fa-user"></i>
+                        Login</a>
+                                    </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</nav>
+    </header>
+<!-- header section end -->
+<!-- ++++++++++++++++++++++++++++++++++++++++ -->
+<!-- ===========> HERO SECTION ЁЯеЧ -->
+<!-- ++++++++++++++++++++++++++++++++++++++++ -->
+<section class="container-fluid hero-sec">
+    <a class="scroll-btn" href="#committe"></a>
+    <div id="heroslider" class="carousel slide">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="./Assets/images/herosec/slide1.jpg" class="d-block w-100">
+            </div>
+            <div class="carousel-item">
+                <img src="./Assets/images/herosec/slide2.jpg" class="d-block w-100">
+            </div>
+            <div class="carousel-item">
+                <img src="./Assets/images/herosec/slide3.jpg" class="d-block w-100">
+            </div>
+            <div class="carousel-item">
+                <img src="./Assets/images/herosec/slide4.jpg" class="d-block w-100">
+            </div>
+            <div class="carousel-item">
+                <img src="./Assets/images/herosec/slide5.jpg" class="d-block w-100">
+            </div>
+            <div class="carousel-item">
+                <img src="./Assets/images/herosec/slide6.jpg" class="d-block w-100">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#heroslider" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#heroslider" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+</section>
+
+<!-- ++++++++++++++++++++++++++++++++++++++++ -->
+<!-- =====> COMMITTEE MEMBERS SECTION ЁЯеЧ -->
+<!-- ++++++++++++++++++++++++++++++++++++++++ -->
+<section class="container-fluid secGap" id="committe">
+    <div class="container">
+
+        <div class="owl-carousel owl-theme committeOwl">
+            <!-- Member -->
+            <div class="style1-card">
+                <span>
+                    <img src="./Assets/images/members/Gordhanbhai.jpg" alt="Shri Gordhanbhai Zadafiya">
+                </span>
+                <h5 class="name">Shri Gordhanbhai Zadafiya</h5>
+                <h5 class="discriptionhd">Ex.Home Minister - Government Of Gujarat</h5>
+                <h5 class="discriptionhd">Vice President-BJP (Gujarat)</h5>
+                <h5 class="discriptionhd">Chairman-Gujarat Urja Sanyukta Sankalan Samiti</h5>
+            </div>
+
+            <!-- Member -->
+            <div class="style1-card">
+                <span>
+                    <img src="./Assets/images/members/bharat.jpg" alt="Shri Bharatbhai Pandya">
+                </span>
+                <h5 class="name">Shri Bharatbhai Pandya</h5>
+                <h5 class="discriptionhd">Ex. MLA-Dhandhuka</h5>
+                <h5 class="discriptionhd">Ex. Spoke Person of BJP Gujarat</h5>
+                <h5 class="discriptionhd">President of AGVKS</h5>
+            </div>
+
+            <!-- Member -->
+            <div class="style1-card">
+                <span>
+                    <img src="./Assets/images/members/vasan.jpg" alt="Shri Vasanbhai Ahir">
+                </span>
+                <h5 class="name">Shri Vasanbhai Ahir</h5>
+                <h5 class="discriptionhd">Ex. Minister - Government of Gujrat</h5>
+                <h5 class="discriptionhd">Ex. MLA-Anjar</h5>
+                <h5 class="discriptionhd">Senior Working President - AGVKS</h5>
+            </div>
+
+            <!-- Member -->
+            <div class="style1-card">
+                <span>
+                    <img src="./Assets/images/members/ketan.jpg" alt="">
+                </span>
+                <h5 class="name">Shri Ketanbhai Inamdar</h5>
+                <h5 class="discriptionhd">MLA-Savali</h5>
+                <h5 class="discriptionhd">Working President-AGVKS</h5>
+            </div>
+
+            <!-- Member -->
+            <div class="style1-card">
+                <span>
+                    <img src="./Assets/images/members/manu.jpg" alt="">
+                </span>
+                <h5 class="name">Shri Manubhai Patel (Fogva)</h5>
+                <h5 class="discriptionhd">MLA-Udhana (Surat)</h5>
+                <h5 class="discriptionhd">Working President-AGVKS</h5>
+            </div>
+
+            <!-- Member -->
+            <div class="style1-card">
+                <span>
+                    <img src="./Assets/images/members/baldev.jpg" alt="">
+                </span>
+                <h5 class="name">Shri Baldevbhai S.Patel</h5>
+                <h5 class="discriptionhd">Senior Secretary General</h5>
+                <h5 class="discriptionhd">AGVKS</h5>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ++++++++++++++++++++++++++++++++++++++++ -->
+<!-- =====> ABOUT SECTION ЁЯеЧ -->
+<!-- ++++++++++++++++++++++++++++++++++++++++ -->
+<section class="container-fluid secGap bg-drk about-sec">
+    <div class="container">
+        <div class="g-row-2">
+            <div class="col-img">
+                <img src="./Assets/images/logo.svg" alt="compney logo">
+            </div>
+            <div class="col-txt">
+                <div>
+                    <p>
+                        અખિલ ગુજરાત વિદ્યુત કામદાર સંઘ (એજીવીકેએસ) જે ગુજરાત રાજ્ય સરકારશ્રીની ઊર્જા કંપનીઓ-ગુજરાત ઊર્જા
+                        વિકાસ નિગમ લિમિટેડ અને તેને સંલગ્ન છ કંપનીઓ જેવી કે
+                        <br>(૧) ચાર ડિસ્કોમ કંપનીઓ (ઉત્તર ગુજરાત વીજ
+                        કંપની લિમિટેડ/પશ્ચિમ ગુજરાત વીજ કંપની લિમિટેડ /દક્ષિણ ગુજરાત વીજ કંપની લિમિટેડ/મધ્ય ગુજરાત વીજ
+                        કંપની લિમિટેડ)
+                        <br>(૨) ગુજરાત એનર્જી ટ્રાન્સમિશન કોર્પોરેશન લિમિટેડ
+                        <br>(૩) ગુજરાત સ્ટેટ
+                        ઇલેકટ્રીસિટી
+                        કોર્પોરેશન લિમિટેડ.
+                    </p>
+
+                    <p>
+                        આમ સદર સાત કંપનીઓના કુલ કર્મચારી/અધિકારીઓમાંથી ૩૫૦૦૦ થી વધુ સભ્ય સંખ્યા એટલે કે કુલ સંખ્યાના ૬૭%
+                        થી વધુ બાર્ગેનિંગ પાવર ધરાવતું અને સાતેય કંપનીઓમાં માન્યતા પ્રાપ્ત યુનિયન છે.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ++++++++++++++++++++++++++++++++++++++++ -->
+<!-- =====> REGISTRATION FORM SECTION ЁЯеЧ -->
+<!-- ++++++++++++++++++++++++++++++++++++++++ -->
+<section class="container-fluid secGap reg-form-sec">
+    <div class="container">
+        <div class="reg-row">
+            <!-- Img Col -->
+            <div class="col-img">
+                <img src="./Assets/images/form-man.svg" alt="registration man">
+            </div>
+
+            <!-- Form Col -->
+            <div class="col-txt">
+                <h3 class="mainHD text-center">Registration Form</h3>
+                <!-- Form -->
+                <form class="form-floating needs-validation" action="https://agvks.in/Admin/Enquiry/save_enquiry"
+                    enctype="multipart/form-data" id="form1" method="post" novalidate>
+                    <div class="g-row-2">
+                        <!-- Employee Name -->
+                        <div>
+                            <label class="form-label mt-2 mb-0">કર્મચારીનું નામ *</label>
+                            <div class="form-floating">
+                                <input type="text" class="form-control" id="EmployeeName" name="name" required>
+                                <label for="EmployeeName">Employee Name *</label>
+                                <div class="valid-feedback">Looks good!</div>
+                                <div class="invalid-feedback">Can't be left empty</div>
+                            </div>
+                        </div>
+
+                        <!-- Employee No. -->
+                        <div>
+                            <label class="form-label mt-2 mb-0">કર્મચારીનો નંબર *</label>
+                            <div class="form-floating">
+                                <input type="text" class="form-control" id="EmployeeNo" name="empno" required>
+                                <label for="EmployeeNo">Employee No. *</label>
+                                <div class="valid-feedback">Looks good!</div>
+                                <div class="invalid-feedback">Can't be left empty</div>
+                            </div>
+                        </div>
+
+                        <!-- Employee Designation -->
+                        <div>
+                            <label class="form-label mt-2 mb-0">કર્મચારીનો હોદ્દો *</label>
+                            <div class="form-floating">
+                                <input type="text" class="form-control" id="validationCustom05" id="eDesignation"
+                                    name="designation" required>
+                                <label for="eDesignation">Employee Designation *</label>
+                                <div class="valid-feedback">Looks good!</div>
+                                <div class="invalid-feedback">Can't be left empty</div>
+                            </div>
+                        </div>
+
+                        <!-- Company Name -->
+                        <div>
+                            <label class="form-label mt-2 mb-0">કંપની નું નામ *</label>
+                            <div class="form-floating">
+                                <select class="form-select" name="companyname" id="CompanyName"
+                                    aria-label="Floating label select" required>
+                                    <option value="" selected>Company</option>
+                                    <option value="GUVNL">GUVNL</option>
+                                    <option value="GSECL">GSECL</option>
+                                    <option value="PGVCL">PGVCL</option>
+                                    <option value="DGVCL">DGVCL</option>
+                                    <option value="MGVCL">MGVCL</option>
+                                    <option value="UGVCL">UGVCL</option>
+                                </select>
+                                <label for="CompanyName">Select company Name *</label>
+                                <div class="valid-feedback">Looks good!</div>
+                                <div class="invalid-feedback">Can't be left empty</div>
+                            </div>
+                        </div>
+
+                        <!-- Name Of Circle -->
+                        <div>
+                            <label class="form-label mt-2 mb-0">સર્કલનું નામ *</label>
+                            <div class="form-floating">
+                                <input type="text" class="form-control" id="NameCircle" name="circle" required>
+                                <label for="NameCircle">Name of Circle *</label>
+                                <div class="valid-feedback">Looks good!</div>
+                                <div class="invalid-feedback">Can't be left empty</div>
+                            </div>
+                        </div>
+
+                        <!-- Name of Division -->
+                        <div>
+                            <label class="form-label mt-2 mb-0">ડિવિઝનનું નામ *</label>
+                            <div class="form-floating">
+                                <input type="text" class="form-control" id="Division" name="division" required>
+                                <label for="Division">Name of Division *</label>
+                                <div class="valid-feedback">Looks good!</div>
+                                <div class="invalid-feedback">Can't be left empty</div>
+                            </div>
+                        </div>
+
+                        <!-- Name of Sdn/TR substation/TPS -->
+                        <div>
+                            <label class="form-label mt-2 mb-0">સડી./પ્રવહન સબ-સ્ટેશન/ટીપીએસનું નામ *</label>
+                            <div class="form-floating">
+                                <input type="text" class="form-control" id="TPS" name="substation" required>
+                                <label for="TPS">Name of Sdn / TR substation / TPS * </label>
+                                <div class="valid-feedback">Looks good!</div>
+                                <div class="invalid-feedback">Can't be left empty</div>
+                            </div>
+                        </div>
+
+                        <!-- Union Designation -->
+                        <div>
+                            <label class="form-label mt-2 mb-0">યુનિયનનો હોદ્દો (જો હોય તો )</label>
+                            <div class="form-floating">
+                                <input type="text" class="form-control" id="UnionDesignation" name="uniondesignation">
+                                <label for="UnionDesignation">Union Designation</label>
+                                <div class="valid-feedback">Looks good!</div>
+                                <div class="invalid-feedback">Can't be left empty</div>
+                            </div>
+                        </div>
+
+                        <!-- Address -->
+                        <div>
+                            <label class="form-label mt-2 mb-0">સરનામું *</label>
+                            <div class="form-floating">
+                                <input type="text" class="form-control" id="Address" name="address" required>
+                                <label for="Address">Address *</label>
+                                <div class="valid-feedback">Looks good!</div>
+                                <div class="invalid-feedback">Can't be left empty</div>
+                            </div>
+                        </div>
+
+                        <!-- Email id -->
+                        <div>
+                            <label class="form-label mt-2 mb-0">ઈ-મેલ આઈ.ડી *</label>
+                            <div class="form-floating">
+                                <input type="email" class="form-control" id="email" name="email" required>
+                                <label for="email">Email id *</label>
+                                <div class="valid-feedback">Looks good!</div>
+                                <div class="invalid-feedback">Can't be left empty</div>
+                            </div>
+                        </div>
+
+                        <!-- Mobile No-->
+                        <div>
+                            <label class="form-label mt-2 mb-0">મોબાઈલ નંબર *</label>
+                            <div class="form-floating">
+                                <input type="number" class="form-control" id="MobileNo" name="mobile" required>
+                                <label for="MobileNo">Mobile No *</label>
+                                <div class="valid-feedback">Looks good!</div>
+                                <div class="invalid-feedback">Can't be left empty</div>
+                            </div>
+                        </div>
+
+                        <!-- Date of Birth -->
+                        <div>
+                            <label class="form-label mt-2 mb-0">જનમ તારીખ *</label>
+                            <div class="form-floating">
+                                <input type="date" class="form-control" id="DOB" name="dob" required>
+                                <label for="DOB">Date of Birth *</label>
+                                <div class="valid-feedback">Looks good!</div>
+                                <div class="invalid-feedback">Can't be left empty</div>
+                            </div>
+                        </div>
+
+                        <!-- Number of Members in family -->
+                        <div>
+                            <label class="form-label mt-2 mb-0">પરિવારના સભ્યોની સંખ્યા *</label>
+                            <div class="form-floating">
+                                <input type="number" class="form-control" id="familyMem" name="familymember" required>
+                                <label for="familyMem">Number of Members in family *</label>
+                                <div class="valid-feedback">Looks good!</div>
+                                <div class="invalid-feedback">Can't be left empty</div>
+                            </div>
+                        </div>
+
+                        <!-- Number of dependents in family  -->
+                        <div>
+                            <label class="form-label mt-2 mb-0">પરિવારમાં આધારિત સભ્યોની સંખ્યા *</label>
+                            <div class="form-floating">
+                                <input type="number" class="form-control" id="familyMem" name="dependentfamily"
+                                    required>
+                                <label for="familyMem">Number of dependents in family * </label>
+                                <div class="valid-feedback">Looks good!</div>
+                                <div class="invalid-feedback">Can't be left empty</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Form -->
+
+
+
+
+                    <div class="d-grid gap-2 mt-4">
+                        <button id="formButton" type="submit" class="btn b-lg prim-bt">
+                            Submit
+                        </button>
+                    </div>
+
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="owl-carousel owl-theme compenyOwl"></div>
+</section>
+
+<!-- Form Submit alert msg -->
+
+
+<!-- footer section start -->
+
+    <!-- ++++++++++++++++++++++++++++++++++++++++ -->
+    <!-- ===========> 🔴FOOTER 🔴 -->
+    <!-- ++++++++++++++++++++++++++++++++++++++++ -->
+    <footer class="container-fluid">
+    <div class="container">
+        <div class="footer-top">
+
+            <!-- Footer col 1 -->
+            <div class="foot-col-1">
+                <div class="c-card-box">
+                    <!-- Call  -->
+                    <div class="c-card aos-init aos-animate" data-aos="fade-up" data-aos-delay="150">
+                        <h6><i class="fa-solid fa-phone"></i> Call Us</h6>
+                        <a href="tel:919925246066"> (+91) 99252-46066</a>
+                    </div>
+
+                    <!-- Email -->
+                    <div class="c-card aos-init aos-animate" data-aos="fade-up" data-aos-delay="150">
+                        <h6><i class="fa-regular fa-envelope"></i> Email Us</h6>
+                        <a href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to= agvksunjha@gmail.com"
+                            target="_blank" rel="noopener noreferrer">agvksunjha@gmail.com</a><br>
+                        <a href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to= agvks.rajkot@gmail.com"
+                            target="_blank" rel="noopener noreferrer">agvks.rajkot@gmail.com</a>
+                    </div>
+
+                    <!-- Address -->
+                    <div class="c-card aos-init aos-animate" data-aos="fade-up" data-aos-delay="150">
+                        <h6><i class="fa-solid fa-signs-post"></i> Located At</h6>
+                        <a href="" target="_blank" rel="noopener noreferrer">201 to 205 , 2nd Floor B.K. Thanki Bhavan,
+                            Shiromani Complex, Opp. Karansinhji High School, Nr. Old Powerhouse, Kavi Nanalal Marg,
+                            Rajkot-360001</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Footer Col-2 -->
+            <div class="foot-col-2">
+                <h6 class="foot-hd">quick links</h6>
+                <ul class="nav drop-nav">
+
+                    <!-- About Us -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">About Us</a>
+
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a class="dropdown-item js-link" href="introduction">
+                                    <i class="fa-solid fa-chevron-right"></i>Introduction
+                                </a>
+                            </li>
+
+                            <li>
+                                <a class="dropdown-item js-link" href="committee">
+                                    <i class="fa-solid fa-chevron-right"></i> Super Power Working Committee
+                                </a>
+                            </li>
+
+                            <li>
+                                <a class="dropdown-item js-link" href="officials">
+                                    <i class="fa-solid fa-chevron-right"></i> Key Officials
+                                </a>
+                            </li>
+
+                            <li>
+                                <a class="dropdown-item js-link" href="functions">
+                                    <i class="fa-solid fa-chevron-right"></i> Functions of AGVKS
+                                </a>
+                            </li>
+
+                            <li>
+                                <a class="dropdown-item js-link" href="vission">
+                                    <i class="fa-solid fa-chevron-right"></i> Vission, Mission & Slogan
+                                </a>
+                            </li>
+
+                            <li>
+                                <a class="dropdown-item js-link" href="constitution">
+                                    <i class="fa-solid fa-chevron-right"></i> Constitution
+                                </a>
+                            </li>
+
+                            <li>
+                                <a class="dropdown-item js-link" href="financial">
+                                    <i class="fa-solid fa-chevron-right"></i> Financial Audit
+                                </a>
+                            </li>
+
+                            <li>
+                                <a class="dropdown-item js-link" href="office">
+                                    <i class="fa-solid fa-chevron-right"></i> Office Details
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <!-- Gallery -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">Gallery</a>
+
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a class="dropdown-item js-link" href="retirement">
+                                    <i class="fa-solid fa-chevron-right"></i>Retirement
+                                </a>
+                            </li>
+
+                            <li>
+                                <a class="dropdown-item js-link" href="working_committee">
+                                    <i class="fa-solid fa-chevron-right"></i> Working Committee
+                                </a>
+                            </li>
+
+                            <li>
+                                <a class="dropdown-item js-link" href="adhiveshan">
+                                    <i class="fa-solid fa-chevron-right"></i>Adhiveshan
+                                </a>
+                            </li>
+
+                            <li>
+                                <a class="dropdown-item js-link" href="social_activity">
+                                    <i class="fa-solid fa-chevron-right"></i>Social Activity
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <!-- Contact Us -->
+                    <li class="nav-item">
+                        <a class="nav-link js-link" href="contact">Contact Us</a>
+                    </li>
+
+                    <!-- Policy -->
+                    <!-- <li class="nav-item">
+                        <a class="nav-link" href="#">Policy</a>
+                    </li> -->
+                </ul>
+
+            </div>
+
+
+            <!-- Footer Col 3 -->
+            <div class="foot-col-3">
+                <h6 class="foot-hd">we are connected with the following companies</h6>
+
+                <div class="company-box">
+                    <span><img src="./Assets/images/companies/GUVNL.png" alt="GUVNL" /></span>
+                    <span><img src="./Assets/images/companies/logo1.png" alt="GSECL" /></span>
+                    <span><img src="./Assets/images/companies/logo2.png" alt="GETCO" /></span>
+                    <span><img src="./Assets/images/companies/logo3.png" alt="MGVCL" /></span>
+                    <span><img src="./Assets/images/companies/logo4.png" alt="DGVCL" /></span>
+                    <span><img src="./Assets/images/companies/logo5.png" alt="UGVCL" /></span>
+                    <span><img src="./Assets/images/companies/logo6.png" alt="PGVCL" /></span>
+                </div>
+
+                <div class="social-box aos-init aos-animate" data-aos="fade-up" data-aos-delay="250">
+                    <a href="#" target="_blank">
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </a>
+
+                    <a href="#" target="_blank">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+
+                    <a href="#" target="_blank">
+                        <i class="fa-brands fa-twitter"></i>
+                    </a>
+
+                    <a href="#" target="_blank">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="foot-end">
+            <p>© <span class="year"></span> Design By Techmaker Aiva PVT LTD</p>
+        </div>
+    </div>
+</footer>    
+<script type="text/javascript">
+
+window.addEventListener("load", function () {
+   let msgBox = document.querySelectorAll(".showAlertMsg");
+
+    msgBox.forEach((e) => {
+      setTimeout(() => {
+        e.style.display = "none";
+      }, 3000);
+    });
+});
+</script>
+
+
+</body>
+
+</html><script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+
+<script>
+$(document).ready(function() {
+    /*   $("#form1").submit(function(e) {
+       e.preventDefault();
+       create_enquiry();
+       return false;
+       });*/
+});
+
+
+function create_enquiry() {
+    $('#formButton').attr('disabled', true);
+    var url = "https://agvks.in/Admin/Enquiry/save_enquiry";
+
+    var fd = new FormData();
+
+    var name = $('[name="name"]').val();
+    var empno = $('[name="empno"]').val();
+    var companyname = $('[name="companyname"]').val();
+    var division = $('[name="division"]').val();
+    var circle = $('[name="circle"]').val();
+    var designation = $('[name="designation"]').val();
+    var uniondesignation = $('[name="uniondesignation"]').val();
+    var substation = $('[name="substation"]').val();
+    var email = $('[name="email"]').val();
+    var dob = $('[name="dob"]').val();
+    var familymember = $('[name="familymember"]').val();
+    var dependentfamily = $('[name="dependentfamily"]').val();
+    var mobile = $('[name="mobile"]').val();
+    var address = $('[name="address"]').val();
+
+    if (!name || !empno || !companyname || !division || !circle || !designation || !substation || !email) {
+
+        $('#formButton').attr('disabled', false);
+        return 1;
+    }
+
+
+    fd.append('name', name);
+    fd.append('empno', empno);
+    fd.append('companyname', companyname);
+    fd.append('division', division);
+    fd.append('circle', circle);
+    fd.append('designation', designation);
+    fd.append('uniondesignation', uniondesignation);
+    fd.append('substation', substation);
+    fd.append('email', email);
+    fd.append('dob', dob);
+    fd.append('familymember', familymember);
+    fd.append('dependentfamily', dependentfamily);
+    fd.append('mobile', mobile);
+    fd.append('address', address);
+
+
+
+    $.ajax({
+        url: url,
+        type: "POST",
+        data: fd,
+        dataType: "JSON",
+        contentType: false,
+        processData: false,
+        success: function(data) {
+            console.log(data);
+            if ($.isEmptyObject(data.error)) {
+
+                $('#form1')[0].reset();
+                $('#formButton').attr('disabled', false);
+
+
+            } else {
+                $('#formButton').attr('disabled', false);
+                alert('Something went wrong. failed to sent enquiry.');
+
+            }
+        },
+        error: function(jqXHR, textStatus, errorThrown) {
+
+            $('#formButton').attr('disabled', false);
+            $('#formButton').attr('disabled', false);
+
+            alert('Something went wrong. failed to sent enquiry.');
+        }
+    });
+}
+
+$(function() {
+    var dtToday = new Date();
+
+    var month = dtToday.getMonth() + 1;
+    var day = dtToday.getDate();
+    var year = dtToday.getFullYear();
+
+    if (month < 10)
+        month = '0' + month.toString();
+    if (day < 10)
+        day = '0' + day.toString();
+
+    var maxDate = year + '-' + month + '-' + day;
+    $('#DOB').attr('max', maxDate);
+});
+</script>
+</html>
